@@ -1,11 +1,14 @@
 ﻿// classsex1.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
 //
-
+#include "person.h"
 #include <iostream>
+#include <string>
 using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    person person1("A123456789","CHEN","JASON","M","19");
+    
+    cout << endl;
 }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
